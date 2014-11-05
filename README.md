@@ -8,9 +8,14 @@ A python script to crawl Google autocomplete results and graph them using Alchem
 
 This script will generate a CSV of all google autocomplete results based on the following formula: 
 
-```
-common determiner + search term + single alphabetical character
-```
+common determiner | search term | alphabetic character
+--- | --- | ---
+Why | architects | a
+Why | architects | b
+Why | architects | c
+... | ... | ...
+Who | architects | a
+... | ... | ...
 
 The script will also generate a graph (.gexf) and [Gephi](http://www.gephi.org) file which includes all the named entities, relations and sentiments associated with each autocomplete result.
 
